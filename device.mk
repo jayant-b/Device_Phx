@@ -123,3 +123,9 @@ PRODUCT_PACKAGES += \
     NfcNci \
     SecureElement \
     Tag
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xtended.maintainer=jay-b
+#Build
+XTENDED_BUILD_TYPE=OFFICIAL
