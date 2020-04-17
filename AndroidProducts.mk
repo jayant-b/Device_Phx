@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_phoenix.mk
+    $(LOCAL_DIR)/xtended_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_phoenix-userdebug \
-    bliss_phoenix-eng
+    xtended_phoenix-user \
+    xtended_phoenix-userdebug \
+    xtended_phoenix-eng
