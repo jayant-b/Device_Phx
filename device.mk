@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Camera
+PRODUCT_PACKAGES += \
+Snap
+
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xtended.maintainer=jay-b
