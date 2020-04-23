@@ -147,3 +147,8 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 # Inherit from the proprietary version
 -include vendor/xiaomi/phoenix/BoardConfigVendor.mk
 
+# Inherit from the proprietary stuffs
+-include vendor/xiaomi/sirius/BoardConfigVendor.mk
+
+# ANXCamera
+TARGET_USES_PREBUILT_CAMERA_SERVICE := true

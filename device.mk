@@ -124,12 +124,12 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
-# Camera
-PRODUCT_PACKAGES += \
-Snap
+# ANXCamera
+$(call inherit-product-if-exists, vendor/xiaomi/ANXCamera/config.mk)
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xtended.maintainer=jay-b
+
 #Build
 XTENDED_BUILD_TYPE=OFFICIAL
